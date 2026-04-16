@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Generated daily data (do not commit)
+python/data/
+
+# PDF briefings
+*.pdf
+
+# Claude temp files
+python/data/_prompt_*.txt
+python/data/_briefing_*_raw.txt
+
+# Windows
+Thumbs.db
+Desktop.ini
