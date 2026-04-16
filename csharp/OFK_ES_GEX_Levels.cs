@@ -332,7 +332,7 @@ namespace OFK_Suite
 
             _btnRefresh = new Button
             {
-                Content = "▶  GEX LEVELS", Height = 32,
+                Content = "▶  GEX LEVELS ES", Height = 32,
                 Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(20,40,90)),
                 Foreground = new SolidColorBrush(accentBlue),
                 FontSize = 11, FontFamily = new System.Windows.Media.FontFamily("Segoe UI"),
@@ -455,7 +455,7 @@ namespace OFK_Suite
                     Application.Current?.Dispatcher?.Invoke(() =>
                     {
                         string msg = exitCode == 0 ? "✅ Données mises à jour" : $"⚠ Exit {exitCode}";
-                        if (_btnRefresh  != null) { _btnRefresh.Content = "▶  GEX LEVELS"; _btnRefresh.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(20,40,90)); _btnRefresh.Foreground = new SolidColorBrush(System.Windows.Media.Color.FromRgb(79,139,209)); _btnRefresh.IsEnabled = true; }
+                        if (_btnRefresh  != null) { _btnRefresh.Content = "▶  GEX LEVELS ES"; _btnRefresh.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(20,40,90)); _btnRefresh.Foreground = new SolidColorBrush(System.Windows.Media.Color.FromRgb(79,139,209)); _btnRefresh.IsEnabled = true; }
                         if (_btnBriefing != null) _btnBriefing.IsEnabled = true;
                         var lv = _levels;
                         if (_statusText != null) _statusText.Text = msg + (exitCode == 0 ? $"  —  {lv.TradeDate}" : "");
@@ -467,7 +467,7 @@ namespace OFK_Suite
                 {
                     Application.Current?.Dispatcher?.Invoke(() =>
                     {
-                        if (_btnRefresh  != null) { _btnRefresh.Content = "▶  GEX LEVELS"; _btnRefresh.IsEnabled = true; }
+                        if (_btnRefresh  != null) { _btnRefresh.Content = "▶  GEX LEVELS ES"; _btnRefresh.IsEnabled = true; }
                         if (_btnBriefing != null) _btnBriefing.IsEnabled = true;
                         if (_statusText  != null) _statusText.Text = "❌ " + ex.Message.Substring(0, Math.Min(60, ex.Message.Length));
                     });
