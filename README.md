@@ -30,7 +30,7 @@ Combines live CME options data, CBOE options chain, and a Claude AI morning brie
 ### In the floating panel
 - GEX / VEX / CEX / DEX totals and regimes
 - PCR, Expected Move, Top OI strikes
-- **▶ GEX LEVELS NQ** or **▶ GEX LEVELS** — runs the full morning pipeline
+- **▶ GEX LEVELS NQ** or **▶ GEX LEVELS ES** — runs the full morning pipeline
 - **📄 Briefing** — opens today's PDF
 
 ---
