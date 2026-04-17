@@ -4,13 +4,9 @@
 
 Combines live CME options data, CBOE options chain, and a Claude AI morning briefing into a single one-click workflow. Run it before RTH open to get all key gamma levels, Max Pain, Expected Move, top OI strikes, and a PDF trading plan — for both NQ and ES.
 
-| NQ Chart | ES Chart |
-|---|---|
-| ![NQ Chart](docs/atas_chart.jpg) | ![ES Panel](docs/atas_chart.jpg) |
+![ATAS Chart](docs/atas_chart.jpg)
 
-| PDF Briefing NQ | PDF Briefing ES |
-|---|---|
-| ![NQ PDF](docs/briefing_pdf.jpg) | ![ES PDF](docs/briefing_pdf.jpg) |
+![PDF Briefing](docs/briefing_pdf.jpg)
 
 ---
 
@@ -34,7 +30,7 @@ Combines live CME options data, CBOE options chain, and a Claude AI morning brie
 ### In the floating panel
 - GEX / VEX / CEX / DEX totals and regimes
 - PCR, Expected Move, Top OI strikes
-- **▶ GEX LEVELS NQ** or **▶ GEX LEVELS** — runs the full morning pipeline
+- **▶ GEX LEVELS NQ** or **▶ GEX LEVELS ES** — runs the full morning pipeline
 - **📄 Briefing** — opens today's PDF
 
 ---
