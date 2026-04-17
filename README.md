@@ -33,6 +33,8 @@ Combines live CME options data, CBOE options chain, and a Claude AI morning brie
 - **▶ GEX LEVELS NQ** or **▶ GEX LEVELS ES** — runs the full morning pipeline
 - **📄 Briefing** — opens today's PDF
 
+> 📖 **New to this?** See the full [Installation Guide](INSTALLATION.md) — no programming knowledge required.
+
 ---
 
 ## Requirements
@@ -83,6 +85,10 @@ dotnet build -c Release
 ```
 
 ### 5. Configure indicator settings in ATAS
+
+>  **Install the DLL first** — copy `OFK_Suite.dll` to:
+> `C:\Users\YOUR_USERNAME\AppData\Roaming\ATAS\Indicators\`
+> *(replace `YOUR_USERNAME` with your Windows username — type `echo %USERNAME%` in a terminal to find it)*
 
 #### NQ Indicator (group 09 — Floating Panel)
 | Setting | Value |
